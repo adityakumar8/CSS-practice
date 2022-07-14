@@ -33,10 +33,20 @@ body {
   background-repeat: no-repeat;
 }
 
-.textBG {
+.textBg {
+  background: #313534;
+  color: #fff;
   padding: 20px;
-  /* background-color: ; */
-  background: #e5e5e5;
+  border-radius: 10px;
+}
+
+.ptext {
+  position: absolute;
+  letter-spacing: 8px;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  text-transform: uppercase;
 }
 
 .section {
